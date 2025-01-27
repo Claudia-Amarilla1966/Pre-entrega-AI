@@ -1,0 +1,115 @@
+
+PRIMER PROMPT:REALIZADO CON CHATGPT
+Claro, voy a crear un prompt basado en la imagen que comparte. Aquí va:
+
+"Un escritorio minimalista y elegante, iluminado por luz natural, con tonos cálidos y un ambiente acogedor. Sobre el escritorio hay una taza de café con leche con arte en la espuma, un cuaderno cerrado con un bolígrafo encima, un organizador con bolígrafos, pequeñas plantas en macetas, y una computadora portátil abierta. Todo el escenario transmite calma, concentración y creatividad, ideal para el trabajo.
+Y con este prompt DALL-E me genero la imagen de Hero.
+
+PROMPT DOS:
+
+Podrías generar una imagen para mi tarjeta de un proyecto, con suaves matices de color café con una luz suave, a partir de este prompt: (Descubre nuestros sabores de café El café azteca lleva café fuerte, chocolate oscuro, canela, extracto de vainilla, y un toque de chile en polvo. Disfrútalo con crema batida para una experiencia auténtica)El cual fue generado por Copilot.
+ChatGPT dijo:
+Aquí tienes la imagen generada para tu tarjeta de proyecto con los suaves matices de color café y la luz suave que pediste. ¿Te gusta esta imagen? Si es adecuada, puedo incluirla en un diseño de página web o ayudarte con cualquier otra idea que tengas en mente.
+La imagen fue generada por DALL-E.
+
+PROMPT TRES:
+
+Podrías generar una imagen para mi tarjeta de un proyecto, con suaves matices de color café con una luz suave,enfoca la imagen desde arriba,a partir de este prompt:(El café Noche Estrellada lleva café espresso, licor de anís, crema de cacao, y un toque de ralladura de naranja. Disfrútalo con una pizca de canela para una experiencia celestial,que se vean tres tazas juntas)El cual fue generado por Copilot.
+ChatGPT dijo:
+Aquí tienes la imagen generada para la tarjeta de tu proyecto, con tres tazas del café "Noche Estrellada" en una vista desde arriba, como lo solicitaste. ¿Qué te parece? Si te gusta, puedo usarla para una página web o cualquier otra cosa que necesites. 😊
+La imagen fue generada por DALL-E
+
+
+PROMPT CUATRO:
+Un café artesanal llamado 'Fruta Mística', servido en una elegante taza de cerámica. La bebida tiene una base de espresso profundo con una capa de crema de coco suave en la parte superior. Alrededor de la taza, pequeños detalles evocan los ingredientes únicos : frutas del bosque frescas, ralladura de limón brillante, y una pizca de azúcar moreno esparcida artísticamente. El fondo presenta un suave degradado de tonos café y dorados, iluminado con una luz cálida que transmite una sensación acogedora y exótica.
+ChatGPT dijo:
+Aquí tienes la imagen del café artesanal 'Fruta Mística' que pediste. ¡Espero que sea lo que imaginabas!
+
+
+PROMPT QUINTO
+Hola Copilot!!! te cuento me gustaría poner una imagen  detras de un párrafo,la imagen me gustaria que se vea realista ,con un fondo delicado, elegante,en colores pasteles con una venta abierta que sople el viento y que vuelen semillas de café
+
+¡Tu imagen está en camino! 😊
+
+
+
+Realizo el PROMPT con GEMINI AI:
+Podrias generar un prompt de QUIENES SOMOS,hazme primero preguntas para obtener mejor devolucion.
+(despues de realizarme varias preguntas,genero el PROMPT con el cual estuve de acuerdo)
+
+¡Absolutamente! Aquí tienes una versión del prompt que puedes adaptar y utilizar en la sección "Quiénes somos" de tu página web, combinando los mejores aspectos de las propuestas anteriores y añadiendo un toque más personal:
+
+"Aromas de Café: Tu pausa perfecta, personalizada.
+
+Desde hace 15 años, hemos dedicado nuestra pasión a elevar la experiencia del café en el ámbito empresarial. En Aromas de Café, creemos que una buena taza de café es más que una bebida; es un momento para conectar, inspirarse y potenciar la creatividad.
+
+¿Qué nos hace únicos?
+
+Café de especialidad de origen: Seleccionamos cuidadosamente los mejores granos de café del mundo para ofrecerte una variedad de perfiles de sabor que satisfarán hasta los paladares más exigentes.
+Asesoría personalizada: Nuestro equipo de expertos te ayudará a elegir el café perfecto para cada ocasión, desde reuniones ejecutivas hasta grandes eventos.
+Servicios a medida: Ofrecemos una amplia gama de servicios, incluyendo coffee breaks, estaciones de café personalizadas, diseño de etiquetas y asesoramiento en la creación de experiencias únicas.
+Compromiso con la calidad y la sostenibilidad: Participamos activamente en concursos de café y trabajamos con proveedores que comparten nuestros valores de sostenibilidad.
+¿Por qué elegir Aromas de Café?
+
+Eleva la imagen de tu empresa: Un café de alta calidad proyecta una imagen de sofisticación y profesionalismo.
+Aumenta la productividad: Un buen café mejora la concentración y el rendimiento de tus empleados.
+Fomenta la colaboración: Un espacio de descanso con café de calidad estimula la interacción y la creatividad.
+Satisface a tus invitados: Ofrece una experiencia memorable en cada evento.
+Nuestra promesa:
+
+En Aromas de Café, nos comprometemos a brindarte un servicio de excelencia, desde la selección de los granos hasta la entrega final. Queremos ser tu aliado estratégico para crear momentos inolvidables y fortalecer tu marca.
+
+¡Contáctanos hoy mismo y descubre cómo Aromas de Café puede transformar tu experiencia con el café!"
+
+PROMPT COPILOT:
+podrias generar la letra de una cancion para mi proyecto de aromas de cafe,que hable sobre la variedad de semillas de cafe,de los catering empresariales,de las reuniones ejecutivas ,eventos ,de la variedades de sabores que tenemos en Aromas de Cafe,cafe artesanal pasion en cada tasa,atension personalizada,contamos con personas altamente capacitas,los mejores barista.podrias agregar,el placer de desgustar nuestros cafe "Café Caramelo Azteca,Café Noche Estrellada,Café Fruta Mística,encuentro con amigos,
+
+
+Por supuesto! Aquí tienes la letra actualizada con los nombres de los cafés y el encuentro con amigos:
+**Verso 1**:
+En el corazón del amanecer,
+El aroma de café empieza a nacer,
+Cada semilla una historia por contar,
+De tierras lejanas, un viaje a comenzar.
+
+**Coro**:
+Aromas de Café, en cada tasa la pasión,
+Artesanal y único, con amor y dedicación,
+Para cada evento, y en cada reunión,
+Una experiencia, un momento de conexión.
+
+**Verso 2**:
+Catering empresarial, encuentros ejecutivos,
+Donde los sabores se vuelven exclusivos,
+Una variedad que deleita los sentidos,
+Con baristas expertos, siempre atentos y servidos.
+
+**Coro**:
+Aromas de Café, en cada tasa la pasión,
+Artesanal y único, con amor y dedicación,
+Para cada evento, y en cada reunión,
+Una experiencia, un momento de conexión.
+
+**Puente**:
+Sutil y complejo, cada sorbo un placer,
+Personalizada atención, calidad a ofrecer,
+Cada nota, cada aroma, un arte a descubrir,
+En Aromas de Café, siempre hay algo por sentir.
+
+**Coro**:
+Aromas de Café, en cada tasa la pasión,
+Artesanal y único, con amor y dedicación,
+Para cada evento, y en cada reunión,
+Una experiencia, un momento de conexión.
+
+**Verso 3**:
+El placer de degustar nuestros cafés,
+Café Caramelo Azteca y Café Noche Estrellada,
+Café Fruta Mística, un deleite en cada taza,
+Encuentro con amigos, una reunión sagrada.
+
+**Final**:
+Con personas capacitadas, los mejores baristas,
+Cada tasa un arte, una delicia a la vista,
+Aromas de Café, un viaje sensorial,
+Donde cada encuentro se vuelve especial.
