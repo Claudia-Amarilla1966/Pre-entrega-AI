@@ -1,6 +1,15 @@
 
-// Script para el desplazamiento suave al hacer clic en la flecha
-document.querySelector('.back-to-top').addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector('#hero').scrollIntoView({ behavior: 'smooth' });
+
+
+// Selecciona el ícono y el reproductor de audio
+const audioIcon = document.querySelector('.audio-icon');
+const audioPlayer = document.getElementById('audioPlayer');
+
+// Añade un evento de clic al ícono
+audioIcon.addEventListener('click', function() {
+    if (audioPlayer.paused) {
+        audioPlayer.play(); // Reproduce el audio si está pausado
+    } else {
+        audioPlayer.pause(); // Pausa el audio si está reproduciéndose
+    }
 });
