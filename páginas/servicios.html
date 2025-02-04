@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Aromas de café</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo o nombre de la empresa -->
+            <a class="navbar-brand" href="index.html">Aromas de Café</a>
+
+            <!-- Contenedor del ícono y el audio (fuera del menú colapsable) -->
+            <div class="audio-container">
+                <i class="fas fa-volume-up audio-icon"></i>
+                <audio id="audioPlayer" controls>
+                    <source src="./../audio/Aromas de cafe.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- Botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú colapsable -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Contenido principal -->
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container text-center text-background">
+            <h1 class="display-4">Aromas de Café</h1>
+            <p class="lead">El sabor que te acompaña en cada momento.</p>
+        </div>
+    </header>
+    
+    
+    <section class="services-minimalist">
+        <div class="container">
+            <h2>Nuestro Enfoque Profesional</h2>
+            <p class="text-left">
+                En <strong>Aromas de Café</strong>, nos especializamos en ofrecer servicios de catering de café de alta
+                gama para eventos corporativos y empresariales. Nuestra misión es brindar una experiencia única y
+                sofisticada, adaptada a las necesidades de cada cliente.
+            </p>
+            <p class="text-right">
+                Desde la planificación inicial hasta la ejecución del evento, nos aseguramos de que cada detalle esté
+                cuidadosamente atendido. Nuestro proceso comienza con una <strong>consulta personalizada</strong>, donde
+                nos reunimos con usted para entender sus expectativas.
+            </p>
+            <p class="text-left">
+                Ofrecemos una <strong> amplia variedad de opciones</strong>, desde cafés de origen único hasta blends
+                exclusivos, acompañados de una selección de bocados gourmet que complementan perfectamente la
+                experiencia. Además, contamos con opciones personalizadas para cada ocasión.
+            </p>
+            <p class="text-right">
+                Nuestros <strong>baristas profesionales</strong> están altamente capacitados para preparar cada taza con
+                precisión y elegancia, garantizando un servicio impecable. Su dedicación y expertise aseguran una
+                experiencia única en cada evento.
+            </p>
+
+            <div class="video-container text-center mt-5">
+                <h3>Descubre Nuestra Experiencia</h3>
+                <p class="mb-0">Descubre cómo elevamos tus eventos corporativos con una experiencia única de catering de café, donde la elegancia y los sabores exóticos se fusionan para crear momentos inolvidables.</p>
+                <div class="video-wrapper">
+                    <video  controls poster="./../imagenes/Gemini_Generated_Image_4v6v114v6v114v6v.jpeg" preload="metadata">
+                        <source src="./../audio/Invideo-reformado.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="./contacto.html" class="enlace-profesional">
+                    <i class="bi bi-calendar-check"></i>Hablemos de tu Próximo Evento
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="custom-footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Aromas de Café - Todos los derechos reservados.</p>
+            <p><i class="bi bi-geo-alt"><br></i>Dirección: Av. Siempre Viva 123 - Buenos Aires,Argentina.</p>
+            <p><i class="bi bi-telephone"><br></i>Teléfono: <a href="tel:+541112345678" class="contact-link">+54 11
+                    1234-5678</a></p>
+            <p><i class="bi bi-envelope"><br></i>Email: <a href="mailto:contacto@aromasdecafe.com"
+                    class="contact-link">contacto@aromasdecafe.com</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (incluye Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./../js/script.js"></script>
+</body>
+
+</html>

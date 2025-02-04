@@ -26,56 +26,46 @@ body {
   padding: 20px;
 }
 
-/* Cambiar el color de fondo de la barra de navegación */
 
 .navbar {
-  background-color: #b9997d !important; 
-  padding: 10px 0; /* Espaciado interno */
+  background: linear-gradient(
+    to right, 
+    #b9997d, 
+    rgba(185, 153, 125, 0.4), 
+    rgba(185, 153, 125, 0.6) 
+  );
+  padding: 10px 0; 
 }
-/* Estilos para el botón de hamburguesa */
+
+
 .navbar-toggler {
-  border: none; /* Elimina el borde predeterminado */
-  padding: 0.5rem; /* Espaciado interno */
-  outline: none; /* Elimina el contorno al hacer clic */
+  border: none; 
+  padding: 0.5rem; 
+  outline: none; 
 }
 
-/* Personalizar el foco del botón de hamburguesa */
+
 .navbar-toggler:focus {
-  outline: 2px solid var(--cafe-claro); /* Borde personalizado */
-  outline-offset: 2px; /* Espacio entre el borde y el botón */
-  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5); /* Sombra suave */
+  outline: 2px solid var(--cafe-claro); 
+  outline-offset: 2px; 
+  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5);
 }
 
-/* Cambiar el color del texto de la barra de navegación */
+
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: #f4a40f;
-  font-weight: 500; /* Grosor de la fuente */
-  transition: color 0.3s ease; /* Transición suave para el hover */
+  font-weight: 500; 
+  transition: color 0.3s ease; 
 }
 
-/* Cambiar el color del texto del enlace activo en la barra de navegación */
 
 .navbar .nav-link.active,
 .navbar .nav-item:hover .nav-link {
   color: #935d38;
 }
 
-/* Cambiar el color de fondo y texto de los botones */
-/* .btn-primary {
-  background-color: #d19862;
-  border-color: #a1754d;
-  color: #fcf9f3;
-} */
 
-/* Cambiar el color de fondo y texto de los botones al pasar el cursor */
-/* .btn-primary:hover {
-  background-color: #c48858;
-  border-color: #f4efeb;
-  color: #f1e8d8;
-} */
-
-/* Cambiar el color de fondo del encabezado */
 .jumbotron {
   background-color: #935d38;
   height: 400px;
@@ -107,7 +97,7 @@ body {
   text-align: center;
 }
 
-/* Cambiar el color del texto del encabezado */
+
 .jumbotron .display-4,
 .jumbotron .lead {
   color: #f1e8d8;
@@ -155,8 +145,12 @@ body {
 
 /* Estilos para el footer personalizado */
 .custom-footer {
-  /* background-color: #935d38; */
-  background-color:#b9997d ;
+  background: linear-gradient(
+    to right, 
+    #b9997d,
+    rgba(185, 153, 125, 0.8), 
+    rgba(185, 153, 125, 0.4) 
+  );
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -182,6 +176,7 @@ body {
 
 .custom-footer .contact-link:hover {
   color: #fcfbfa;
+  text-decoration: underline;
 }
 
 .responsive-image {
@@ -238,15 +233,15 @@ body {
 .audio-container {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Espacio entre el menú y el audio */
+  margin-left: auto; 
 }
 
 .audio-icon {
-  color: #333; /* Color del ícono */
-  font-size: 20px; /* Tamaño del ícono */
-  margin-right: 10px; /* Espacio entre el ícono y el reproductor */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
-  transition: color 0.3s ease; /* Transición suave para el hover */
+  color: #333; 
+  font-size: 20px; 
+  margin-right: 10px; 
+  cursor: pointer; 
+  transition: color 0.3s ease;
 }
 
 /* Estilos para el reproductor de audio */
@@ -261,24 +256,17 @@ audio {
 /* Ajustes para móviles */
 @media (max-width: 991.98px) {
   .audio-container {
-      margin-left: 10px; /* Ajusta la posición en móviles */
+      margin-left: 10px; 
   }
   .audio-icon {
-      font-size: 24px; /* Aumenta el tamaño del ícono en móviles */
+      font-size: 24px; 
   }
   audio {
-      display: none; /* Oculta el reproductor en móviles */
+      display: none; 
   }
 }
 
-/* Variables de colores */
-:root {
-  --cafe-claro: #d2b48c;
-  --cafe-medio: #a0522d;
-  --cafe-oscuro: #6f4e37;
-  --cafe-negro: #3b2f2f;
-  --cafe--mas-claro: #eee7dd;
-}
+
 
 /* Sección "Descubre Nuestros Sabores de Café" */
 .container h2.text-center {
@@ -290,63 +278,355 @@ audio {
 /* Estilos generales para las tarjetas */
 .card {
   border: none; 
-  margin-bottom: 20px; /* Espacio entre tarjetas */
+  margin-bottom: 20px; 
 }
 
-/* Eliminar o personalizar el foco de las tarjetas */
+
 .card:focus,
 .card:active {
-  outline: none !important; /* Elimina el outline predeterminado */
-  border-color: var(--cafe-claro); /* Cambia el color del borde */
-  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5) !important; /* Agrega una sombra suave */
+  outline: none !important; 
+  border-color: var(--cafe-claro);
+  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5) !important; 
 }
 
 /* Estilos para las imágenes de las tarjetas */
 .card-img-top {
-  border-top-left-radius: 10px; /* Bordes redondeados en la parte superior */
+  border-top-left-radius: 10px; 
   border-top-right-radius: 10px;
 }
 
 /* Estilos para el cuerpo de las tarjetas */
 .card-body {
-  padding: 20px; /* Espaciado interno */
-  background-color: var(--cafe--mas-claro); /* Fondo café más claro */
-  border-bottom-left-radius: 10px; /* Bordes redondeados en la parte inferior */
+  padding: 20px;
+  background-color: var(--cafe--mas-claro); 
+  border-bottom-left-radius: 10px; 
   border-bottom-right-radius: 10px;
 }
 
 /* Estilos para el título de las tarjetas */
 .card-title {
-  color: var(--cafe-oscuro); /* Color café oscuro */
-  font-size: 1.5rem; /* Tamaño de la fuente */
-  margin-bottom: 10px; /* Espacio inferior */
+  color: var(--cafe-oscuro);
+  font-size: 1.5rem; 
+  margin-bottom: 10px; 
 }
 
 /* Estilos para el texto de las tarjetas */
 .card-text {
-  color: var(--cafe-negro); /* Color café negro */
-  font-size: 1rem; /* Tamaño de la fuente */
-  line-height: 1.5; /* Altura de línea */
+  color: var(--cafe-negro); 
+  font-size: 1rem; 
+  line-height: 1.5; 
 }
 
 /* Estilos para los botones dentro de las tarjetas */
 .card .btn-primary {
-  background-color:#92755c ; /* Fondo café oscuro */
-  border-color: #8e7158; /* Borde café oscuro */
-  color: #fcfbfa; /* Texto café más claro */
-  font-size: 1rem; /* Tamaño de la fuente */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave */
+  border-color: #b8a798; 
+  color: #ffffff; 
+  font-size: 1rem; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+  background: linear-gradient(
+    to bottom right,
+    var(--cafe--mas-claro), 
+    var(--cafe-claro), 
+    var(--cafe-medio) 
+  );
 }
 
 .card .btn-primary:hover {
-  background-color: #8c6544; /* Fondo café medio al hacer hover */
-  border-color: #8a5e3a; /* Borde café medio al hacer hover */
+  border-color: #8a5e3a;
+  background: linear-gradient(
+    to bottom right,
+    var(--cafe-medio), 
+    var(--cafe-claro), 
+    var(--cafe--mas-claro) 
+  );
 }
 
-/* Eliminar o personalizar el foco de los botones */
+
 .card .btn-primary:focus {
-  outline: none !important; /* Elimina el outline predeterminado */
-  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5) !important; /* Agrega una sombra suave */
+  outline: none !important; 
+  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.5) !important; 
 }
+/* FIN PAGINA DE INICIO */
+
+
+/*  Página de Servicios */
+.services-minimalist {
+  background: linear-gradient(
+    to bottom right,
+    var(--cafe--mas-claro), 
+    var(--cafe-claro), 
+    var(--cafe--mas-claro) 
+  );
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.services-minimalist h2 {
+  font-size: 2.5rem;
+  color: var(--cafe-medio);
+  margin-bottom: 30px;
+}
+
+.services-minimalist p {
+  font-size: 1.1rem; 
+  color: var(--cafe-negro);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 80%; 
+  height: calc(5 * 1.6em); 
+  overflow: hidden; 
+  text-align: justify; 
+}
+
+@media (max-width: 760px) {
+  .services-minimalist p {
+    text-align: left;
+    letter-spacing: normal;
+    max-width: 100%; 
+    margin-bottom: 15px; 
+  }
+}
+
+.services-minimalist p::last-line {
+  text-align-last: left; 
+}
+.services-minimalist .text-right::last-line {
+  text-align-last: right;
+}
+.services-minimalist .text-right {
+  margin-left: auto; 
+}
+
+.services-minimalist strong {
+  color: var(--cafe-medio);
+}
+
+.services-minimalist .container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para el enlace profesional con efecto de letras que salen */
+.enlace-profesional {
+  font-size: 1.1rem;
+  color: var(--cafe-oscuro); 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  border: 2px solid var(--cafe-oscuro); 
+  border-radius: 5px; 
+  transition: transform 0.3s ease, letter-spacing 0.3s ease; 
+  display: inline-block; 
+}
+
+.enlace-profesional:hover {
+  transform: scale(1.05); 
+  letter-spacing: 2px; 
+  background-color: var(--cafe-oscuro); 
+  color: white; 
+}
+.enlace-profesional i {
+  margin-right: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.enlace-profesional:hover i {
+  transform: translateX(5px); 
+}
+
+/* Estilos para la sección del video */
+.video-container {
+  margin: 40px 0;
+  padding: 20px 0;
+  background-color: var(--cafe-claro);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.video-container h3 {
+  font-size: 2rem;
+  color: var(--cafe-medio);
+  /* margin-bottom: 15px; */
+  margin-bottom: 10px;
+  padding-bottom: 0 !important;
+}
+
+
+.video-container p {
+  font-size: 1.1rem;
+  color: var(--cafe-negro);
+  margin-bottom: 10px;
+  margin-bottom: 0 !important;
+  text-align: center; 
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-bottom: 0 !important;
+}
+
+/* Contenedor del video */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: var(--cafe-claro);
+  margin-top: 0 !important; 
+  padding-top: 0 !important;
+}
+
+/* Estilos para el elemento de video */
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para la Sección de Contacto */
+.contacto-section {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.contacto-section h2 {
+  font-size: 2.5rem;
+  color: var(--cafe-oscuro);
+  margin-bottom: 20px;
+}
+
+.contacto-section .intro-text {
+  font-size: 1.1rem;
+  color: var(--cafe-negro);
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.8;
+}
+
+/* Estilos para el Formulario Impactante */
+.formulario-impactante {
+  background-color: rgba(255, 255, 255, 0.2); 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4); 
+  max-width: 600px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+}
+
+.formulario-impactante .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.formulario-impactante input,
+.formulario-impactante textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); 
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+.formulario-impactante input:focus,
+.formulario-impactante textarea:focus {
+  border-bottom-color: var( --cafe-negro); 
+  outline: none;
+}
+
+.formulario-impactante label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6); 
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.formulario-impactante input:focus ~ label,
+.formulario-impactante textarea:focus ~ label,
+.formulario-impactante input:not(:placeholder-shown) ~ label,
+.formulario-impactante textarea:not(:placeholder-shown) ~ label {
+  top: -15px;
+  font-size: 0.9rem;
+  color: var(--cafe-oscuro);
+}
+
+.formulario-impactante .linea {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--cafe-oscuro); 
+  transition: width 0.3s ease;
+}
+
+.formulario-impactante input:focus ~ .linea,
+.formulario-impactante textarea:focus ~ .linea {
+  width: 100%; 
+}
+
+/* Botón de Enviar */
+.btn-enviar {
+  background-color: var(--cafe-oscuro);
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-enviar span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-enviar i {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-enviar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-enviar:hover::before {
+  left: 100%; 
+}
+
+.btn-enviar:hover {
+  background-color: #d8af8b;
+  transform: translateY(-2px); 
+}
+/* FIN PÄGINA CONTACTO */
